@@ -22,6 +22,7 @@
             android:name=".UI.StoryActivity"
             android:label="@string/title_activity_story"
             android:parentActivityName=".UI.MainActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
