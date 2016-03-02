@@ -1,10 +1,10 @@
 package com.kevinmichie.interactivestory.UI;
 
-import android.os.Bundle;
-import android.util.Log;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
-import com.kevinmichie.interactivestory.Model.Page;
+import android.os.Bundle;
+import android.util.Log;
+
 import com.kevinmichie.interactivestory.R;
 
 public class StoryActivity extends AppCompatActivity {
@@ -24,7 +24,7 @@ public class StoryActivity extends AppCompatActivity {
         if(name == null){
             name = "Friend";
         }
-        Log.d(TAG,name);
+        Log.d(TAG, name);
 
     }
 

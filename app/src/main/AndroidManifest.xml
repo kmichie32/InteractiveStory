@@ -18,17 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity
-            android:name=".UI.StoryActivity"
-            android:label="@string/title_activity_story"
-            android:parentActivityName=".UI.MainActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".UI.MainActivity"/>
-        </activity>
-        <activity android:name=".UI.StoryActivity2">
+        <activity android:name=".UI.StoryActivity">
         </activity>
     </application>
 
