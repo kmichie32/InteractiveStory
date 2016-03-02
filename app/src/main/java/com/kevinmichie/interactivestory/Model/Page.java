@@ -15,6 +15,7 @@ public class Page {
     }
 
     public boolean isFinal() {
+
         return mIsFinal;
     }
 
